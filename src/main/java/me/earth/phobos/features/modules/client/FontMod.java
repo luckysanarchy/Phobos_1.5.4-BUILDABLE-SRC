@@ -35,6 +35,7 @@ public class FontMod extends Module
         this.shadow = (Setting<Boolean>)this.register(new Setting("Shadow", true, "Less shadow offset font."));
         this.showFonts = (Setting<Boolean>)this.register(new Setting("Fonts", false, "Shows all fonts."));
         this.setInstance();
+        this.setEnabled(true);
     }
     
     private void setInstance() {
